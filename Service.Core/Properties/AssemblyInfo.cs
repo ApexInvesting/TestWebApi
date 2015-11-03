@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AdminPort")]
+[assembly: AssemblyTitle("Service.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AdminPort")]
+[assembly: AssemblyProduct("Service.Core")]
 [assembly: AssemblyCopyright("Copyright ©  2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -21,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("877cdd55-2d4f-4e3a-9df8-e6118a458ea8")]
+[assembly: Guid("b8cb65fd-349d-4de4-905a-80b986357969")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -36,4 +36,4 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
 
-[assembly: OwinStartup(typeof(AdminPort.WebApi.Configuration.WebApiConfig), "Configure")]
+[assembly: OwinStartup(typeof(Service.Core.WebApi.Configuration.WebApiConfig), "Configure")]

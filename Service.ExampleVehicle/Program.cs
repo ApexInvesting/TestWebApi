@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Service.Core.WebApi;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdminPort {
+namespace Service.ExampleVehicle {
 
     class Program {
 
@@ -16,6 +17,7 @@ namespace AdminPort {
 
             Console.WriteLine("Listening on http://localhost:5050/command/start");
             Console.WriteLine("Listening on http://localhost:5050/command/stop");
+            Console.WriteLine("Listening on http://localhost:5050/command/custom");
             Console.WriteLine();
             Console.WriteLine("Press any key to terminate");
             Console.ReadKey();

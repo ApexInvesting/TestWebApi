@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace AdminPort.WebApi.Configuration {
+namespace Service.Core.WebApi.Configuration {
 
     class WebApiConfig {
 

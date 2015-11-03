@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdminPort {
+namespace Service.Core.WebApi {
 
-    class WebApiHost : IDisposable {
+    public class WebApiHost : IDisposable {
 
         readonly IDisposable app;
 
