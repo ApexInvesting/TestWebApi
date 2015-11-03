@@ -9,7 +9,7 @@ using System.Web.Http;
 namespace AdminPort.WebApi.Controllers {
 
     [RoutePrefix("command")]
-    class CommandController : ApiController {
+    public class CommandController : ApiController {
 
         [HttpGet]
         [Route("start")]
